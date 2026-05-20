@@ -1,0 +1,15 @@
+{
+  "project": "Wine Quality Prediction with XGBoost and SageMaker HPO",
+  "model": "XGBoost Regressor",
+  "target": "wine_quality",
+  "problem_type": "regression",
+  "metrics": {
+    "mse": 0.4564,
+    "mae": 0.3867,
+    "rmse": 0.6756
+  },
+  "main_metric": "rmse",
+  "evaluation_dataset": "test",
+  "pipeline_status": "completed",
+  "notes": "Metrics obtained from the final optimized XGBoost model evaluation. Values should be updated if the model is retrained."
+}

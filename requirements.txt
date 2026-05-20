@@ -1,0 +1,24 @@
+# Core data stack
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Visualization and EDA
+matplotlib
+seaborn
+
+# AWS / SageMaker
+boto3
+sagemaker
+
+# API deployment
+fastapi
+uvicorn
+pydantic
+
+# Utilities
+python-dotenv

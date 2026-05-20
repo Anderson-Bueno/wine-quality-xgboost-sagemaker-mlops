@@ -1,0 +1,19 @@
+{
+  "project": "Wine Quality Prediction with XGBoost and SageMaker HPO",
+  "algorithm": "XGBoost",
+  "objective_metric": "validation:rmse",
+  "objective_type": "Minimize",
+  "max_jobs": 28,
+  "max_parallel_jobs": 4,
+  "best_hyperparameters": {
+    "alpha": 0.008301872248817376,
+    "eta": 0.167963131613249,
+    "gamma": 0.05971914859245542,
+    "lambda": 0.01106648481998912,
+    "max_depth": 7,
+    "min_child_weight": 2,
+    "num_round": 100,
+    "subsample": 0.9656861487728767
+  },
+  "notes": "Best hyperparameters selected from SageMaker Hyperparameter Optimization job. Replace values if a new tuning job is executed."
+}
